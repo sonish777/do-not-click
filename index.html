@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/1.2 animate.css.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <audio controls autoplay class="hbd-song">
+      <source src="audio/hbd.mp3" type="audio/mpeg" />
+    </audio> -->
+    <audio src="audio/hbd.mp3" id="hbd" loop="loop" autoplay="autoplay"></audio>
+    <audio src="audio/clap.mp3" id="clap" autoplay="autoplay"></audio>
+    <audio
+      src="audio/cracker.mp3"
+      id="cracker-audio"
+      autoplay="autoplay"
+    ></audio>
+
+    <audio
+      src="audio/Clapping Sound Effects.mp3"
+      id="clap2"
+      autoplay="autoplay"
+    ></audio>
+
+    <audio
+      src="audio/photographs.mp3"
+      id="photographs"
+      autoplay="autoplay"
+      loop="loop"
+    ></audio>
+
+    <div class="backdrop"></div>
+    <div class="modal">
+      <h2>Dear Binita Shrestha,</h2>
+      <p>
+        I'd like to wish you a very very HAPPY BIRTHDAY. It's a shame that the
+        world is facing this pandmic and we could not celebrate your birthday.
+        But no worries, cause i got you something ! Please click on the button
+        below to begin your birthday bash.
+      </p>
+      <button id="start">START</button>
+    </div>
+    <img src="imgs/celeb-2.png" alt="" class="celeb celeb-1" />
+    <img src="imgs/celeb-2.png" alt="" class="celeb celeb-2" />
+    <div class="wishes">
+      <p class="wish wish-1">
+        I wish you all the happiness in this world ❤❤❤
+      </p>
+      <p class="wish wish-2">
+        My wish for you on your birthday is for you to always be, happy and
+        healthy. Don’t ever change! Happy birthday my dear ❤❤❤
+      </p>
+      <p class="wish wish-3">
+        You do so much for others, I hope you find time <br />
+        to do something for yourself on your birthday.
+      </p>
+      <p class="wish wish-4">
+        May each passing year bring you wisdom, peace and cheer. ❤❤
+      </p>
+      <p class="wish wish-5">
+        Will be thinking of you all day long:)
+      </p>
+      <p class="wish wish-6">
+        Have a wonderful birthday sweetheart ! ❤❤❤❤
+      </p>
+    </div>
+
+    <img src="imgs/celeb-2.png" alt="" class="celeb celeb-3" />
+    <img src="imgs/celeb-2.png" alt="" class="celeb celeb-4" />
+
+    <section id="imgs">
+      <div class="container">
+        <h1>HAPPY BIRTHDAY TO YOU, DEAR BINITA ❤ ❤</h1>
+      </div>
+    </section>
+    <section id="hero">
+      <div class="container">
+        <div class="cake-container">
+          <div class="overlay"></div>
+          <div class="cake-img wow fadeInLeft" data-wow-delay="0.5s">
+            <img src="imgs/birthday13.png" class="cake" />
+            <div class="fires">
+              <img src="imgs/fire.png" class="fire fire-1" />
+              <img src="imgs/fire.png" class="fire fire-2" />
+              <img src="imgs/fire.png" class="fire fire-3" />
+              <img src="imgs/fire.png" class="fire fire-4" />
+              <img src="imgs/fire.png" class="fire fire-5" />
+            </div>
+          </div>
+          <div class="cake-toggle wow fadeInRight" data-wow-delay="0.8s">
+            <h1 class="steps">
+              Step 1: Light the candles
+            </h1>
+            <div class="birthday-wish">
+              <textarea
+                rows="10"
+                cols="30"
+                placeholder="YOUR WISH"
+                id="wish-msg"
+              ></textarea>
+            </div>
+            <button class="candles" id="light-candle">LIGHT THE CANDLES</button>
+          </div>
+        </div>
+
+        <div class="final-msg">
+          <div class="final-overlay">
+            <button class="final-overlay-toggle">VIEW</button>
+          </div>
+          <div class="final-img-container">
+            <h1>I LOVE OUR PHOTOGRAPHS ❤</h1>
+          </div>
+          <div class="msg">
+            <p>
+              Hi there, I hope you are having fun. You know last time I said, "I
+              really wish i could see you one last time, one last cup of coffee,
+              one last hug, and maybe lie in bed and fall asleep one last time.
+              That would make me full and happy and in between we would forget
+              everything, just for one last time, we'd have everything figured
+              out... and during the in betweens, time would stop and we'd have
+              forever and i'd never have to let you go". But there' no forever,
+              and now i realize that if we keep adding up the "once mores", it
+              will add up to a lifetime. And I'd like to belive that a lifetime
+              is pretty enough. Though I tell myself often that I was lucky to
+              have anytime with you at all. I tell myself " Whatever happens
+              tomorrow, we've had today". I'd hate you lose you but if I ever
+              do, I will make sure it happens for the best of you.
+              <br />
+              Anyway this is not about me, I hope you had a wonderful day at
+              home. I just wanted to Thank you, for a lot of things. You came
+              into my life just on time. I love you & I miss you just as much. I
+              hope to see you soon. Happy birthday my dear.
+              <br />
+              Always !
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/wayponits.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/main.js"></script>
+</html>
