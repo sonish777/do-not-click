@@ -7,7 +7,7 @@
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
-  "homepage": "https://github.com/sonish777/binita-birthday",
+  "homepage": "https://github.com/sonish777/do-not-click",
   "author": "",
   "license": "ISC",
   "dependencies": {
